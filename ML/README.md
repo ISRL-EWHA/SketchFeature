@@ -25,7 +25,7 @@ To work with this project, you need to download the required datasets. The follo
 
 ### 3. Testing the Model
 - Mix the data from different datasets and prepare a test set.
-- Use the `sketfeature` encoding method to encode the mixed data.
+- Use the `SketFeature` encoding method to encode the mixed data.
 - Decode the data after processing and feed it to the trained CNN model for inference.
 
 ## Requirements
