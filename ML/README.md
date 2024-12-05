@@ -14,7 +14,7 @@ To work with this project, you need to download the required datasets. The follo
 ## Workflow
 
 ### 1. Dataset Preparation
-- Extract the **PSD (Power Spectral Density)** and **IAT (Inter-Arrival Time)** features from the raw data.
+- Extract the **PSD (Packet Size Distribution)** and **IPD (Inter-Packet Delay)** features from the raw data.
 - Save the extracted features in CSV format:
   - Each row corresponds to the feature information of a single flow.
   - The last column in each row contains the label for the flow (e.g., attack type or benign traffic).
@@ -25,7 +25,7 @@ To work with this project, you need to download the required datasets. The follo
 
 ### 3. Testing the Model
 - Mix the data from different datasets and prepare a test set.
-- Use the `SketFeature` encoding method to encode the mixed data.
+- Use the `SketchFeature` encoding method to encode the mixed data.
 - Decode the data after processing and feed it to the trained CNN model for inference.
 
 ## Requirements
