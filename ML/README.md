@@ -1,5 +1,3 @@
-# ML.ipynb: Traffic Classification Using CNN
-
 This repository contains a Jupyter Notebook (`ML.ipynb`) that demonstrates how to train and test a Convolutional Neural Network (CNN) model for traffic classification. Follow the instructions below to set up the environment, access the datasets, and run the notebook.
 
 ## Datasets
