@@ -70,8 +70,6 @@ class SketchFeature():
     
     def encoding(self, flow_id, value):
         ql = self.get_ql(value)
-        if ql == None:
-            return
         for i in range(self.d_bf):
             loc = calc_hash_val_mt(flow_id, ql, i) % self.w_bf
             self.bloom_filter[i][loc] = 1
